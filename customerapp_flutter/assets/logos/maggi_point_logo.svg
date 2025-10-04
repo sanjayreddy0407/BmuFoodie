@@ -1,0 +1,33 @@
+<svg width="100" height="100" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="maggiGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF9800"/>
+      <stop offset="50%" style="stop-color:#F57C00"/>
+      <stop offset="100%" style="stop-color:#FF5722"/>
+    </linearGradient>
+  </defs>
+  <circle cx="50" cy="50" r="48" fill="url(#maggiGradient)" stroke="#FEBB2C" stroke-width="2"/>
+  <g transform="translate(20,25)">
+    <!-- Bowl -->
+    <ellipse cx="30" cy="40" rx="25" ry="8" fill="#8B4513"/>
+    <ellipse cx="30" cy="38" rx="25" ry="8" fill="#CD853F"/>
+    <!-- Noodles -->
+    <g fill="#FFD700" stroke="#FFA500" stroke-width="0.5">
+      <path d="M10 38 Q15 35 20 38 Q25 41 30 38 Q35 35 40 38 Q45 41 50 38"/>
+      <path d="M12 40 Q17 37 22 40 Q27 43 32 40 Q37 37 42 40 Q47 43 52 40"/>
+      <path d="M8 42 Q13 39 18 42 Q23 45 28 42 Q33 39 38 42 Q43 45 48 42"/>
+    </g>
+    <!-- Steam -->
+    <g fill="none" stroke="#E0E0E0" stroke-width="1" opacity="0.6">
+      <path d="M20 30 Q22 25 20 20"/>
+      <path d="M30 30 Q32 25 30 20"/>
+      <path d="M40 30 Q42 25 40 20"/>
+    </g>
+    <!-- Vegetables -->
+    <circle cx="25" cy="40" r="1.5" fill="#228B22"/>
+    <circle cx="35" cy="39" r="1" fill="#FF6347"/>
+    <!-- Text -->
+    <text x="30" y="55" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="#FFFFFF">MAGGI</text>
+    <text x="30" y="63" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="#FFFFFF">POINT</text>
+  </g>
+</svg>

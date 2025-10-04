@@ -1,0 +1,22 @@
+# This is a placeholder file for the app icon
+# The actual PNG file needs to be created separately
+
+# To create the app icon:
+# 1. Open generate_app_icon.html in a web browser
+# 2. Right-click the generated icon and "Save image as..."
+# 3. Save as "app_icon.png" in this directory (assets/icons/)
+# 4. Run: flutter pub run flutter_launcher_icons:main
+
+# Alternatively, use online tools:
+# - https://icon.kitchen/
+# - https://appicon.co/
+# - https://www.canva.com/
+
+# Design specifications:
+# - Size: 1024x1024 pixels (minimum 512x512)
+# - Background: Gradient from #FFD700 to #FF6B35
+# - Main icon: White restaurant/cutlery symbol
+# - BMU letter: "B" in background (subtle)
+# - Style: Modern, rounded corners (22% radius)
+
+PLACEHOLDER=true

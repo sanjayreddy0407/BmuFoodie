@@ -1,0 +1,28 @@
+<svg width="100" height="100" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="sketchGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#9C27B0"/>
+      <stop offset="50%" style="stop-color:#673AB7"/>
+      <stop offset="100%" style="stop-color:#3F51B5"/>
+    </linearGradient>
+  </defs>
+  <circle cx="50" cy="50" r="48" fill="url(#sketchGradient)" stroke="#FEBB2C" stroke-width="2"/>
+  <g transform="translate(20,20)">
+    <!-- Artist palette -->
+    <path d="M15 25 Q10 20 15 15 Q25 10 35 15 Q45 10 50 20 Q50 35 45 40 Q35 45 25 40 Q15 35 15 25 Z" fill="#FFFFFF"/>
+    <!-- Paint colors on palette -->
+    <circle cx="22" cy="22" r="3" fill="#FF0000"/>
+    <circle cx="35" cy="18" r="3" fill="#00FF00"/>
+    <circle cx="42" cy="25" r="3" fill="#0000FF"/>
+    <circle cx="38" cy="35" r="3" fill="#FFFF00"/>
+    <circle cx="28" cy="38" r="3" fill="#FF69B4"/>
+    <!-- Paintbrush -->
+    <rect x="45" y="15" width="2" height="20" fill="#8B4513" transform="rotate(30 46 25)"/>
+    <ellipse cx="45" cy="12" rx="2" ry="5" fill="#2F4F4F" transform="rotate(30 45 12)"/>
+    <!-- Pencil -->
+    <rect x="25" y="45" width="2" height="15" fill="#FFD700" transform="rotate(-20 26 52)"/>
+    <polygon points="25,58 27,58 26,62" fill="#2F4F4F" transform="rotate(-20 26 60)"/>
+    <!-- Text -->
+    <text x="30" y="68" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#FFFFFF">SKETCH</text>
+  </g>
+</svg>
