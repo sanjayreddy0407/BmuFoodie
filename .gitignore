@@ -1,0 +1,14 @@
+# Flutter/Dart/Pub related
+.dart_tool/
+.packages
+.pub-cache/
+build/
+
+# IDE related
+.idea/
+.vscode/
+*.iml
+
+# Others
+*.log
+*.lock
